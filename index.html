@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DatePicker</title>
+        <style>
+            date-pinker {
+                position: absolute;
+                left: 200px;
+                top: 100px;
+            }
+        </style>
+    </head>
+    <body>
+         <template id = "tmpl">
+             <link rel = "stylesheet" href = "css/main.css">
+
+             <div id = "main_form">
+                 <span id = "show_dmy"></span>
+                 <div id = "can" style = "text-align: center"><span>&#x25BC;</span></div>
+             </div>
+             <div id = "date_form">
+                 <div id = "cms">
+                     <div id = "info_form">
+                         <div id = "year_m"></div>
+                         <div id = "wmd_m"></div>
+                     </div>
+                     <div id = "mth_coll">
+                         <span id = "prev">&#10094;</span>
+                         <div id = "mth_form"></div>
+                         <span id = "nxt">&#10095;</span>
+                     </div>
+                     <div id = "show_date"></div>
+                 </div>
+             </div>
+         </template>
+         <date-pinker format = "d.n.y"></date-pinker>
+         <script src = "js/datepickerElement.js"></script>
+    </body>
+</html>

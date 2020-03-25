@@ -1,0 +1,186 @@
+#main_form {
+    width: 150px;
+    height: 25px;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding: 4px;
+    user-select: none;
+}
+
+#can {
+    width: 30px;
+    height: 25px;
+    float: right;
+    color: #4CAF50;
+    user-select: none;
+}
+
+#info_form {
+    height: 80px;
+    width: 300px;
+    background-color: #4CAF50;
+}
+
+#date_form {
+    user-select: none;
+    font-family: sans-serif;
+}
+
+#cms {
+    width: 300px;
+    animation-name: cms_anim;
+    animation-duration: 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+}
+
+#year_m {
+    color: white;
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 0;
+}
+
+#wmd_m {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#nxt {
+    float: right;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: -23px;
+}
+
+#mth_form {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 65%;
+    text-align: center;
+}
+
+#prev {
+    float: left;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#show_date {
+    margin-top: 10%;
+}
+
+ul {
+    height: 328px;
+    overflow-y: scroll;
+    list-style-type: none;
+    padding: 0;
+    margin-top: -30px;
+    width: 300px;
+}
+
+li {
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.li_sel {
+    font-size: 30px;
+    font-weight: bold;
+    color: darkturquoise;
+}
+
+table, th, td {
+    padding: 10px;
+}
+
+th {
+    opacity: 0.4;
+}
+
+td {
+    text-align: center;
+    font-weight: bold;
+}
+
+#list_mounth {
+    height: 250px;
+    padding: 0;
+}
+
+.tdh {
+    padding: 0;
+}
+
+.sp {
+    font-size: 13px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+}
+
+.sp1 {
+    font-size: 13px;
+    padding: 10px 30px 10px 30px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white;
+}
+
+.Chd {
+    background-color: #4CAF50;
+    border-radius: 40px;
+    color: white;
+}
+
+#year_m:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#wmd_m:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#nxt:hover {
+    background-color: #4CAF50;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+#prev:hover {
+    background-color: #4CAF50;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+#main_form:hover {
+    cursor: pointer;
+}
+
+#mth_form:hover {
+    cursor: pointer;
+}
+
+.sp:hover {
+    border: 1px solid #4CAF50;
+    cursor: pointer;
+}
+
+li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@keyframes cms_anim {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
